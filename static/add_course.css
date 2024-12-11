@@ -1,0 +1,43 @@
+body{
+    overflow-x:hidden ;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+.formContainer{
+    /* border: 2px solid black ; */
+    padding:2%;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    
+
+  .formAddCourse{
+    /* border: 1px solid black; */
+    width: 32%;
+    padding: 1%;
+    padding-top: 3%;
+    background-color: white;
+
+   border-radius: 15px;
+
+   .Content{
+    height: 3vh;
+   }
+  }
+ 
+}
+
+.inputan_teks{
+    width: 20vw;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+.teks-content{
+  margin-left: 10vw;
+}

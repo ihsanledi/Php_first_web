@@ -2,17 +2,17 @@
 require 'db.php';
 
 // Detail pengguna baru
-$username = 'jonathan';
-$password = 'sandi1';
-$email = 'jonathan@example.com';
-$first_name = 'John';
-$last_name = 'nathan';
+$username = 'pratama';
+$password = 'ihsan123';
+$email = 'pratama@gmail.com';
+$first_name = 'pratama';
+$last_name = 'ledi';
 
 // Hash password
 $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
 // Tambahkan pengguna baru ke database
-$stmt = $pdo->prepare("INSERT INTO users (username, password, email, first_name, last_name, role) VALUES (?, ?, ?, ?, ?, 'student')");
+$stmt = $pdo->prepare("INSERT INTO users (username, password, email, first_name, last_name, role) VALUES (?, ?, ?, ?, ?, 'instructor')");
 $stmt->execute([$username, $hashed_password, $email, $first_name, $last_name]);
 
 echo "User added successfully with hashed password.";

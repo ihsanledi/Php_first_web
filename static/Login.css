@@ -1,0 +1,93 @@
+body{
+    overflow-x:hidden ;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+.formContainer{
+    /* border: 2px solid black ; */
+    padding:2%;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+
+  .formLogin{
+    /* border: 1px solid black; */
+    width: 32%;
+    padding: 1%;
+    padding-top: 3%;
+    background-color: white;
+
+   border-radius: 15px;
+
+   .Content{
+    height: 3vh;
+   }
+  }
+ 
+}
+
+input{
+    border: 1px solid black !important;
+    /* border-radius: 20px !important; */
+    padding: 3px !important;
+    padding-left: 4% !important;
+    background-color: black;
+}
+
+input::placeholder{
+    /* background-color: rgba(0,0,0,0.2); */
+    border-radius: 20px;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.text-form{
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+}
+
+h3{
+    margin: 0 !important;
+    margin-left:8% !important;
+    height: 0;
+}
+
+h2{
+    color: white ;
+}
+
+
+
+
+h1{
+    color: white;
+    margin-left: 30px;
+    
+}
+
+
+
+
+
+h4{
+    margin: 0 !important;
+    margin-left: 2vw !important;
+    margin-top: 3vh !important;
+}
+
+
+button{
+    width: 20vw;
+}
+
+
+.text-form{
+    margin-left: -2vw;
+    text-align: center;
+}

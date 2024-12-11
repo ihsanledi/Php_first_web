@@ -11,13 +11,13 @@ if (session_status() == PHP_SESSION_NONE) {
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
-// Halaman yang memerlukan autentikasi
-$auth_pages = ['courses', 'course'];
+// // Halaman yang memerlukan autentikasi
+// $auth_pages = ['courses', 'course'];
 
-if (in_array($page, $auth_pages) && !isset($_SESSION['user'])) {
-    header('Location: ' . BASE_URL . 'login');
-    exit;
-}
+// if (in_array($page, $auth_pages) && !isset($_SESSION['user'])) {
+//     header('Location: ' . BASE_URL . 'login');
+//     exit;
+// }
 
 
 // Mendapatkan halaman dari URL
